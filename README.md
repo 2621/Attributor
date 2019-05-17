@@ -67,5 +67,6 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
    Nesse caso, também deve-se alterar a linha 6 do arquivo "_Layout.cshmtl"
    
    De: <title>@ViewBag.Title - Attributor</title>
+   
    Para: <title>@ViewBag.Message - Attributor</title>
    
