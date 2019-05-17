@@ -11,6 +11,7 @@ namespace HelloWorld.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.Message = "Hello World!";
             return View();
         }
     }
