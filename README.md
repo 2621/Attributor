@@ -5,16 +5,16 @@
 Implementar um método que retorna "Hello World!" utilizando ASP.NET MVC em C# com Razor, subir o código para o git e fazer o deploy do projeto para a AWS
 
 #### Programas Utilizados:
-Visual Studio 2019; 
+Visual Studio 2019;  
 AWS Toolkit dor Visual Studio
 
 #### Tuotriais que serviram como base:
 ASP.NET MVC:
-https://www.tutorialspoint.com/asp.net_mvc/asp.net_mvc_razor.htm
+https://www.tutorialspoint.com/asp.net_mvc/asp.net_mvc_razor.htm  e  
 https://docs.microsoft.com/pt-br/aspnet/mvc/overview/getting-started/introduction/getting-started
 
 AWS:
-https://www.c-sharpcorner.com/article/deploying-a-web-application-to-aws/
+https://www.c-sharpcorner.com/article/deploying-a-web-application-to-aws/  e  
 https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.quickstart.html
 
 #### Arquivos criados/alterados para o projeto:
@@ -41,7 +41,7 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
    E no arquivo "Index.cshtml":
       
       @{
-           ViewBag.Title = "Hello Wordl!";
+           ViewBag.Title = "Hello World!";
       } 
       <div style="border-radius:10px; background-color:#1B3465; margin-block-start: 50px; height=150px;" class="jumbotron">
       <h2 style="margin-left:40%; color:aqua; margin-inline-start: 38%;">@ViewBag.Title</h2>
@@ -66,8 +66,6 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
       
    Nesse caso, também deve-se alterar a linha 6 do arquivo "_Layout.cshmtl"
    
-    De: <title>@ViewBag.Title - Attributor</title>
-    Para: <title>@ViewBag.Message - Attributor</title>
+   De: <title>@ViewBag.Title - Attributor</title>
+   Para: <title>@ViewBag.Message - Attributor</title>
    
-   
-     
