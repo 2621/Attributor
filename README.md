@@ -31,7 +31,6 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
 **Nota:** Para o retorno "Hello World" na página, pode-se proceder de duas maneiras:
   1- (Utliziada neste projeto):
     No arquivo "HomeContorller.cs", deixar o método ActionResult:
-      ...
       
       public ActionResult Index()
         {
@@ -40,7 +39,6 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
       ...
    
    E no arquivo "Index.cshtml":
-      ...
       
       @{
            ViewBag.Title = "Hello Wordl!";
@@ -51,7 +49,6 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
       ...
 
    2- No arquivo "HomeContorller.cs", deixar o método ActionResult:
-      ...
       
       public ActionResult Index()
         {
@@ -61,7 +58,6 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
       ...
    
    E no arquivo "Index.cshtml", colocar direto a parte de html:
-      ...
       
       <div style="border-radius:10px; background-color:#1B3465; margin-block-start: 50px; height=150px;" class="jumbotron">
       <h2 style="margin-left:40%; color:aqua; margin-inline-start: 38%;">@ViewBag.Message</h2>
@@ -69,6 +65,7 @@ https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/create_deploy_NET.q
       ...
       
    Nesse caso, também deve-se alterar a linha 6 do arquivo "_Layout.cshmtl"
+   
     De: <title>@ViewBag.Title - Attributor</title>
     Para: <title>@ViewBag.Message - Attributor</title>
    
